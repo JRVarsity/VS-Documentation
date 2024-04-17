@@ -30,11 +30,17 @@
 <em>*In this example, notice how I've included mismatched capitalization to show that it will still work within the theme customizer, just display differently when you search for the section (lowercase) vs when the section is being edited (uppercase).</em>
 7. Continue this process of creating a new header section for as many as you need, giving each a unique file name ("header2.liquid", "header3.liquid", etc.) as well as unique schema name and presets name.
 8. After saving your work, go into the theme customizer and toggle the eye icon on the global "Header" under the "Header" section, rendering it invisible sitewide.
-	![[Pasted image 20240417144802.png]]
+	![Pasted image 20240417144802](https://github.com/JRVarsity/VS-Documentation/assets/137803222/992f4313-2558-428a-a5cd-42384ea397a6)
+![Pasted image 20240417145119](https://github.com/JRVarsity/VS-Documentation/assets/137803222/385cccbf-edca-49b1-b67b-f2e9e0cdae2e)
+![Pasted image 20240417145535](https://github.com/JRVarsity/VS-Documentation/assets/137803222/5ccc14e1-41e3-4396-8fdd-a89a3a4e34cb)
 9. Your newly created headers will appear as selectable sections within the "Template" portion of the page after you've searched for them.
-	![[Pasted image 20240417145119.png]]
+	![Pasted image 20240417144802](https://github.com/JRVarsity/VS-Documentation/assets/137803222/992f4313-2558-428a-a5cd-42384ea397a6)
+![Pasted image 20240417145119](https://github.com/JRVarsity/VS-Documentation/assets/137803222/385cccbf-edca-49b1-b67b-f2e9e0cdae2e)
+![Pasted image 20240417145535](https://github.com/JRVarsity/VS-Documentation/assets/137803222/5ccc14e1-41e3-4396-8fdd-a89a3a4e34cb)
 	<em>*Notice how we can see the lowercase "h" populated from our "presets" schema.</em>
 10. Once you've selected your new header, it will appear in the Template section and can be edited uniquely and moved to any position, but since this is the "header" of the page we're editing, we should always keep it as the top section.
-	![[Pasted image 20240417145535.png]]
+	![Pasted image 20240417144802](https://github.com/JRVarsity/VS-Documentation/assets/137803222/992f4313-2558-428a-a5cd-42384ea397a6)
+![Pasted image 20240417145119](https://github.com/JRVarsity/VS-Documentation/assets/137803222/385cccbf-edca-49b1-b67b-f2e9e0cdae2e)
+![Pasted image 20240417145535](https://github.com/JRVarsity/VS-Documentation/assets/137803222/5ccc14e1-41e3-4396-8fdd-a89a3a4e34cb)
 	<em>*Notice how we see the uppercase "H" from our schema "name" here.</em>
 11. Even though this was easy to create multiple headers, each page/page type template has to have a header applied to it since we've removed the global header.
