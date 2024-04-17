@@ -1,10 +1,10 @@
 ### Creating Multiple Headers
 
 1. Within Shopify, navigate to “Online Store” > “Themes” > “•••” > “Edit code”
+ 
+2. In the theme’s code editor, navigate to “Sections” and select “+ Add a new section”
 
-2. In the theme’s code editor, navigate to “Sections” and select “+ Add a new section”
-
-3. Name your new section however you’d like, using “header” as the prefix (e.g. header1, header-main, etc.) using the ”liquid” format; “.liquid” will be included in the file name so there’s no reason to add it when naming. 
+3. Name your new section however you’d like, using “header” as the prefix (e.g. header1, header-main, etc.) using the ”liquid” format; “.liquid” will be included in the file name so there’s no reason to add it when naming. 
 	- To have multiple headers, our global header (the default theme header) will be hidden/disabled so we’ll need to recreate it first, followed by any subsequent headers we may need.
 
 4. Now that you’ve recreated your new main header liquid file (in this example using the filename “header1.liquid”), go to the global header file (“header.liquid” within “Sections”)and copy/paste its contents into the new “header1.liquid” file you’ve created.
