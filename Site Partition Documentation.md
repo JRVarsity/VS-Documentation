@@ -1,4 +1,4 @@
-### **Creating Multiple Headers**
+### Creating Multiple Headers
 
 1. Within Shopify, navigate to “Online Store” > “Themes” > “•••” > “Edit code”
 
