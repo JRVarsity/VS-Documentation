@@ -19,7 +19,7 @@ For this task, we're specifically changing the shape of the individual product g
           "settings": {
             "quick-view-image-size": "tall",
 ```
-*As a side note, you'll find some other interesting settings within the quick view JSON here that aren't available within the theme customizer such as being able to show or hide the dynamic checkout buttons (Shop Pay, Apple Pay, etc.), display or hide quick view on mobile, etc.
+<em>As a side note, you'll find some other interesting settings within the quick view JSON here that aren't available within the theme customizer such as being able to show or hide the dynamic checkout buttons (Shop Pay, Apple Pay, etc.), display or hide quick view on mobile, etc.</em>
 6. Now that the new collection template JSON is ready, navigate back to the newly created "template--collection2.liquid" file you created in Step 2. Copy and paste the entirety of the original "template--collection.liquid" file into this file, overwriting any default schema or code.
 7. Within the new "template--collection2.liquid" file, find the div with id "AjaxinateContainer" and scroll down to the "render" section of code. Here, you'll replace the original 'product-grid--indiv-product' with your newly created liquid file from Step 3. Once done, save the file.
 ```js
