@@ -47,4 +47,4 @@
 ![Pasted image 20240417145535](https://github.com/JRVarsity/VS-Documentation/assets/137803222/5ccc14e1-41e3-4396-8fdd-a89a3a4e34cb)<br>
 <em>Notice how we see the uppercase "H" from our schema "name" here.</em>
 
-11. Even though this was easy to create multiple headers, each page/page type template has to have a header applied to it since we've removed the global header.
+11. Now that we have multiple headers, each page/page type template has to have one of our unique headers applied to it (and each edited) as an individual Section since we've removed the global header. This is a bit of a pain, but it's the only way to have different headers (menu & nav) for specific pages of the site.
