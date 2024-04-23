@@ -6,6 +6,7 @@ For this task, we're specifically changing the shape of the individual product g
 2. In the theme's edit code within "Sections" create a new liquid section called "template--collection2" or whatever you'd like to name it. 
 3. Under "Snippets" create a new liquid snippet called "product-grid--indiv-product2" or whatever you'd like to name it. 
 4. Under "Templates", navigate to the JSON file of the new collection template you made in Step 1 and change the main section type ("sections" > "main" > "type") in order to have this new collection template reference your new "template--collection2.liquid" file.
+
 ```JSON
  "main": {
       "type": "template--collection2",
