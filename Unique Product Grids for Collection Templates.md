@@ -5,8 +5,11 @@ Collection templates, regardless of individual customization within the theme cu
 For this task, we're specifically changing the shape of the individual product grid items to "Tall" (2:3) versus the square 1:1 format that's defined in the global settings for the theme. The "template--collection.liquid" Section renders the "product-grid--indiv-product.liquid" Snippet so we'll be creating a new version of each in order for this to work.
 
 1. From the theme customizer, create a new collection template and modify/customize it as normal.
+
 2. In the theme's edit code within "Sections" create a new liquid section called "template--collection2" or whatever you'd like to name it. 
+
 3. Under "Snippets" create a new liquid snippet called "product-grid--indiv-product2" or whatever you'd like to name it. 
+
 4. Under "Templates", navigate to the JSON file of the new collection template you made in Step 1 and change the main section type ("sections" > "main" > "type") in order to have this new collection template reference your new "template--collection2.liquid" file.
 ```JSON
  "main": {
@@ -22,6 +25,7 @@ For this task, we're specifically changing the shape of the individual product g
 <em>As a side note, you'll find some other interesting settings within the quick view JSON here that aren't available within the theme customizer such as being able to show or hide the dynamic checkout buttons (Shop Pay, Apple Pay, etc.), display or hide quick view on mobile, etc.</em>
 
  6. Now that the new collection template JSON is ready, navigate back to the newly created "template--collection2.liquid" file you created in Step 2. Copy and paste the entirety of the original "template--collection.liquid" file into this file, overwriting any default schema or code.
+ 
  7. Within the new "template--collection2.liquid" file, find the div with id "AjaxinateContainer" and scroll down to the "render" section of code. Here, you'll replace the original 'product-grid--indiv-product' with your newly created liquid file from Step 3. Once done, save the file.
 ```js
 <div id="AjaxinateContainer" class="clearfix{% if settings.product-grid != 'natural' %} has-aspect-ratio{% else %} natural-images{% endif %}">
@@ -47,6 +51,7 @@ For this task, we're specifically changing the shape of the individual product g
                             </li>
 ```
 8. Navigate back to the newly created "product-grid--indiv-product2.liquid" file you created in Step 3. Copy and paste the entirety of the original "product-grid--indiv-product.liquid"  into this file, overwriting any default schema or code.
+
 9. In this new "product-grid--indiv-product2.liquid" file, <u>REMOVE</u> the lines of code from "assign crop_setting" to "end if" since we don't want to reference the image crop from the global settings at all.
 ```js
 {% assign crop_setting = settings.product-grid %}
@@ -63,4 +68,4 @@ For this task, we're specifically changing the shape of the individual product g
 ```js
 {% assign image_crop = "aspect-ratio--tall" %}
 ```
-This is a great example of why we wouldn't want to create an entirely separate CSS class as this class "aspect-ratio--tall" is referenced and defined in a number of other locations throughout the theme files. We're leveraging what's defined within the global settings.
+<em>This is a great example of why we wouldn't want to create an entirely separate CSS class as this class "aspect-ratio--tall" is referenced and defined in a number of other locations throughout the theme files. We're leveraging what's defined within the global settings.</em>
