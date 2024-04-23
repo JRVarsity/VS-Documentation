@@ -1,3 +1,7 @@
+#### Preface:
+
+We're going to be removing the global site header that appears on every page in order to create unique headers per page / page type template.
+
 1. Within Shopify, navigate to “Online Store” > “Themes” > “•••” > “Edit code”
  
 2. In the theme’s code editor, navigate to “Sections” and select “+ Add a new section”
