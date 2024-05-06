@@ -23,8 +23,46 @@ Similar to [Creating Multiple Site Headers](https://github.com/JRVarsity/VS-Docu
       "max_blocks": 4,
 ```
 
-7. Towards the bottom of the schema, delete the entire "default" section and add the following code, updating the "presets" attribute to the schema under "name" following the same naming structure.
+6. Towards the bottom of the schema, delete the entire "default" attribute section. The "default" attribute cannot exist with a "presets" attribute, which is required to make a user created section available in the theme customizer.
 
-    - Adding the "presets" attribute is the only way to make a user created section be available in the theme customizer.
-    - Capitalization doesn't really matter here and is only seen in the theme customizer.
-    - The "presets" "category" can be called whatever you like. This is a deprecated function of the Shopify theme editor that may or may not return, allowing you to categorize/filter different template sections as you're building your site.
+```json
+    "default": {
+        "blocks": [
+            {
+                "type": "text",
+                "settings": {
+                    "title": "Contact us",
+                    "richtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+                }
+            },
+            {
+                "type": "menu",
+                "settings": {
+                    "menu_title": "Links",
+                    "footer_linklist": "main-menu"
+                }
+            },
+            {
+                "type": "newsletter",
+                "settings": {
+                    "menu_title": "Join our Mailing List",
+                    "footer_newsletter_description": ""
+                }
+            }
+        ]
+    }
+```
+
+7. Add the following code where the "default" attribute was deleted, then update the "presets" attribute "name" following the same naming structure as step 5.
+
+```json
+ "presets": [
+        {
+        "name": "footer-main1",
+        "category": "ADVANCED LAYOUT"
+        }]
+```
+
+<em>Capitalization doesn't really matter here aside from readability and is only seen in the theme customizer. The "presets" "category" can be called whatever you like. This is a deprecated function of the Shopify theme editor that may or may not return, allowing you to categorize/filter different template sections as you're building your site.</em>
+
+
