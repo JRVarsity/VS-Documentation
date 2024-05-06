@@ -18,7 +18,7 @@ Similar to [Creating Multiple Site Headers](https://github.com/JRVarsity/VS-Docu
 {% schema %}
 {
     "name": {
-        "en": "Footer-main1"
+        "en": "Footer main 1"
     },
       "max_blocks": 4,
 ```
