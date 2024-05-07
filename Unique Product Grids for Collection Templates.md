@@ -69,3 +69,7 @@ For this task, we're specifically changing the shape of the individual product g
 {% assign image_crop = "aspect-ratio--tall" %}
 ```
 <em>This is a great example of why we wouldn't want to create an entirely separate CSS class as this class "aspect-ratio--tall" is referenced and defined in a number of other locations throughout the theme files. We're leveraging what's defined within the global settings.</em>
+
+#### No Blocks Product Grid
+
+Some templates such as the "template--product-recommendations.liquid" may use/render the "product-grid--no-blocks.liquid" snippet instead of "product-grid--indiv-product.liquid" snippte, but can be easily identified by looking at the liquid file and finding the "render" section as listed above in step 7. If you encounter this issue, just repeate the steps using a uniquely created "template--product-recommendations.liquid" (e.g. template--product-recommendations-2.liquid) and unique "product-grid--no-blocks.liquid" (e.g. product-grid--no-blocks-2.liquid, etc.) wherever you may need it.
