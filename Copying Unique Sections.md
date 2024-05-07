@@ -57,8 +57,7 @@ For example, this already created, unique footer can be pasted in your JSON file
       }
     }
 ```
-Notice the Shopify generated unique ID that's been appended to the new footer section. This same ID will need to be paste at the bottom of the page "order" within your schema.
-<em> I've included the entire "order" section to show what this looks like. This is the literal order of the page </em>
+Looking at the code, you'll be able to see the exact details of what make up that section you created and modified within the theme customizer. Notice the Shopify generated unique ID that's been appended to the new footer section name as well. This same ID will need to be paste at the bottom of the page "order" within your schema.
 ```json
   "order": [
     "header2_E9XTHq",
@@ -70,3 +69,6 @@ Notice the Shopify generated unique ID that's been appended to the new footer se
     "footer_main_lifestyle_Lz9M6T"
   ]
 ```
+<em> I've included the entire "order" section to show what this looks like. This is the literal order of the page </em>
+
+Continue to repeate this process for any unique sections that need to appear on multiple page templates, preserving the uniquely generated Shopify section ID.
