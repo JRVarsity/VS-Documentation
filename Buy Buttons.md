@@ -2,6 +2,7 @@
 
 <details>
   <summary>Buy Button Code</summary>
+  
 ``` js
 <div id='collection-component-1719261018638'></div>
 <script type="text/javascript">
