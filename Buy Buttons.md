@@ -1,5 +1,7 @@
-<summary>### [Universal Cheerleaders Association (UCA) - Home (varsity.com)](https://www.varsity.com/uca/)</summary>
+### [Universal Cheerleaders Association (UCA) - Home (varsity.com)](https://www.varsity.com/uca/)
 
+<details>
+  <summary>Buy Button Code</summary>
 ``` js
 <div id='collection-component-1719261018638'></div>
 <script type="text/javascript">
@@ -242,7 +244,7 @@
 /*]]>*/
 </script>
 ```
-
+</details>
 
 ---
 ### [National Cheerleaders Association — The Work Is Worth It ® (varsity.com)](https://www.varsity.com/nca/)
