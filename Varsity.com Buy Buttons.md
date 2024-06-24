@@ -250,6 +250,9 @@
 ---
 ### [National Cheerleaders Association — The Work Is Worth It ® (varsity.com)](https://www.varsity.com/nca/)
 
+<details>
+  <summary>Buy Button Code</summary>
+  
 ```js
 <div id='collection-component-1719261113089'></div>
 <script type="text/javascript">
@@ -492,11 +495,15 @@
 /*]]>*/
 </script>
 ```
+</details>
 
 ---
 ### [The official site of the UDA | Universal Dance Association - Home (varsity.com)](https://www.varsity.com/uda/)
 
-``` js
+<details>
+  <summary>Buy Button Code</summary>
+
+  ``` js
 <div id='collection-component-1719261727232'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
@@ -738,10 +745,14 @@
 /*]]>*/
 </script>
 ```
+</details>
 
 ---
 ### [National Dance Alliance — The Work Is Worth It ® (varsity.com)](https://www.varsity.com/nda/)
 
+<details>
+  <summary>Buy Button Code</summary>
+  
 ``` js
 <div id='collection-component-1719261783596'></div>
 <script type="text/javascript">
@@ -984,10 +995,15 @@
 /*]]>*/
 </script>
 ```
+</details>
 
 ---
+
 ### [Home - USA (varsity.com)](https://www.varsity.com/usa/)
 
+<details>
+  <summary>Buy Button Code</summary>
+  
 ``` js
 <div id='collection-component-1719261803882'></div>
 <script type="text/javascript">
@@ -1230,3 +1246,4 @@
 /*]]>*/
 </script>
 ```
+</details>
