@@ -1,4 +1,4 @@
-### [Universal Cheerleaders Association (UCA) - Home (varsity.com)](https://www.varsity.com/uca/)
+<summary>### [Universal Cheerleaders Association (UCA) - Home (varsity.com)](https://www.varsity.com/uca/)</summary>
 
 ``` js
 <div id='collection-component-1719261018638'></div>
