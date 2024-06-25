@@ -1248,6 +1248,8 @@
 ```
 </details>
 
+---
+
 ### [Cheer & Spirit Pom Poms: Varsity Poms - Varsity Spirit](https://www.varsity.com/school/spirit-fashion/poms/)
 
 <details>
@@ -1486,6 +1488,8 @@
 ```
 
 </details>
+
+---
 
 ### [Varsity Bows - Varsity Spirit Fashion Cheer Bows](https://www.varsity.com/school/spirit-fashion/bows/)
 
