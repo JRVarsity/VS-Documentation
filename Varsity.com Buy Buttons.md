@@ -1247,3 +1247,480 @@
 </script>
 ```
 </details>
+
+### [Cheer & Spirit Pom Poms: Varsity Poms - Varsity Spirit](https://www.varsity.com/school/spirit-fashion/poms/)
+
+<details>
+  <summary>Buy Button Code</summary>
+
+``` js
+<div id='collection-component-1714501253781'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'shopvarsity.myshopify.com',
+      storefrontAccessToken: 'c66e77a891523900453baa88a9acbf5a',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '274417057890',
+        node: document.getElementById('collection-component-1714501253781'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px",
+          "width": "calc(25% - 20px)"
+        }
+      },
+      "title": {
+        "font-family": "Roboto, sans-serif"
+      },
+      "button": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "bold",
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#c00044"
+        },
+        "background-color": "#d5004b",
+        ":focus": {
+          "background-color": "#c00044"
+        },
+        "border-radius": "5px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-family": "Roboto, sans-serif"
+      },
+      "compareAt": {
+        "font-family": "Roboto, sans-serif"
+      },
+      "unitPrice": {
+        "font-family": "Roboto, sans-serif"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "width": "380px",
+    "text": {
+      "button": "View product"
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "bold",
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#c00044"
+        },
+        "background-color": "#d5004b",
+        ":focus": {
+          "background-color": "#c00044"
+        },
+        "border-radius": "5px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "bold",
+        "font-size": "26px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal",
+        "font-size": "18px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15.299999999999999px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15.299999999999999px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-family": "Roboto, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Roboto, sans-serif"
+      },
+      "select": {
+        "font-family": "Roboto, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "bold",
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#c00044"
+        },
+        "background-color": "#d5004b",
+        ":focus": {
+          "background-color": "#c00044"
+        },
+        "border-radius": "5px"
+      }
+    },
+    "text": {
+      "total": "Subtotal"
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "bold",
+        "background-color": "#d5004b",
+        ":hover": {
+          "background-color": "#c00044"
+        },
+        ":focus": {
+          "background-color": "#c00044"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+```
+
+</details>
+
+### [Varsity Bows - Varsity Spirit Fashion Cheer Bows](https://www.varsity.com/school/spirit-fashion/bows/)
+
+<details>
+  <summary>Buy Button Code</summary>
+
+``` js
+<div id='collection-component-1714501152901'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'shopvarsity.myshopify.com',
+      storefrontAccessToken: 'c66e77a891523900453baa88a9acbf5a',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '274415517794',
+        node: document.getElementById('collection-component-1714501152901'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px",
+          "width": "calc(25% - 20px)"
+        }
+      },
+      "title": {
+        "font-family": "Roboto, sans-serif"
+      },
+      "button": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "bold",
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#c00044"
+        },
+        "background-color": "#d5004b",
+        ":focus": {
+          "background-color": "#c00044"
+        },
+        "border-radius": "5px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-family": "Roboto, sans-serif"
+      },
+      "compareAt": {
+        "font-family": "Roboto, sans-serif"
+      },
+      "unitPrice": {
+        "font-family": "Roboto, sans-serif"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "width": "380px",
+    "text": {
+      "button": "View product"
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "bold",
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#c00044"
+        },
+        "background-color": "#d5004b",
+        ":focus": {
+          "background-color": "#c00044"
+        },
+        "border-radius": "5px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "bold",
+        "font-size": "26px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal",
+        "font-size": "18px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15.299999999999999px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal",
+        "font-size": "15.299999999999999px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-family": "Roboto, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Roboto, sans-serif"
+      },
+      "select": {
+        "font-family": "Roboto, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "bold",
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#c00044"
+        },
+        "background-color": "#d5004b",
+        ":focus": {
+          "background-color": "#c00044"
+        },
+        "border-radius": "5px"
+      }
+    },
+    "text": {
+      "total": "Subtotal"
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "bold",
+        "background-color": "#d5004b",
+        ":hover": {
+          "background-color": "#c00044"
+        },
+        ":focus": {
+          "background-color": "#c00044"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+```
+</details>
