@@ -1,5 +1,5 @@
 This is a custom theme section designed for the Varsity Athlete pages.
-```javascript
+```js
 {% schema %}
 {
   "name": "Athlete Section",
